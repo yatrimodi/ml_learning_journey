@@ -1,60 +1,62 @@
-# 📘 ML Learning Journey – Daily Model Progress
+# 📘 Machine Learning Models Showcase
 
-A collection of beginner-friendly machine learning models trained daily as part of my AI/ML learning journey. Each day features a different dataset and model type.
+This repository contains simple machine learning models implemented using Python and `scikit-learn`. The goal is to practice model building, evaluation, and visualization using real-world datasets.
 
 ---
 
-## 📅 Day 1 – Linear Regression: SAT vs GPA
+## 🔹 Linear Regression: SAT vs GPA
 
-**🎯 Goal:** Predict GPA based on SAT scores using Simple Linear Regression.
+**Goal:** Predict a student's GPA based on their SAT score.
 
-- 📁 Dataset: `1.01. Simple linear regression.csv`
-- 🔢 Features:
+- **Dataset:** `1.01. Simple linear regression.csv`
+- **Features:**
   - Input: `SAT`
   - Output: `GPA`
-- ⚙️ Model: `LinearRegression()`
-
-**📊 Results:**
-- ✅ R² Score: `0.406`
-- 📉 Mean Squared Error (MSE): `0.0433`
-- 🔍 Example Prediction: `SAT = 1740 → GPA ≈ 3.33`
-
-📈 **Visualization:**  
-Scatter plot of SAT vs GPA with a regression line.
+- **Model:** `LinearRegression()`
+- **Results:**
+  - R² Score: `0.406`
+  - Mean Squared Error: `0.0433`
+  - Prediction Example: `SAT = 1740 → GPA ≈ 3.33`
+- **Visualization:** Scatter plot with regression line
 
 ---
 
-## 📅 Day 2 – Linear Regression: Salary vs Years of Experience
+## 🔹 Linear Regression: Salary vs Experience
 
-**🎯 Goal:** Predict Salary based on Years of Experience using Simple Linear Regression.
+**Goal:** Predict employee salary based on years of experience.
 
-- 📁 Dataset: `Salary_dataset.csv`
-- 🔢 Features:
+- **Dataset:** `Salary_dataset.csv`
+- **Features:**
   - Input: `YearsExperience`
   - Output: `Salary`
-- ⚙️ Model: `LinearRegression()`
-
-**📊 Results:**
-- ✅ R² Score: `0.9576`
-- 📉 Mean Squared Error (MSE): `30,801,096.88`
-
-📈 **Visualization:**  
-Scatter plot of Experience vs Salary with a regression line.
+- **Model:** `LinearRegression()`
+- **Results:**
+  - R² Score: `0.9576`
+  - Mean Squared Error: `30,801,096.88`
+- **Visualization:** Scatter plot with regression line
 
 ---
 
-## 📅 Day 3 – Text Classification: News Headlines
+## 🔹 News Headline Classification
 
-**🎯 Goal:** Classify news content based on headlines using TF-IDF and Logistic Regression.
+**Goal:** Classify news articles based on their content using headline labels.
 
-- 📁 Dataset: `news_summary.csv`
-- 🔢 Features:
-  - Input: `ctext` (cleaned article text)
-  - Target: `headlines`
-- ⚙️ Model Pipeline:
+- **Dataset:** `news_summary.csv`
+- **Features:**
+  - Input: `ctext` (cleaned article content)
+  - Output: `headlines`
+- **Model Pipeline:**
   - `TfidfVectorizer(max_features=5000)`
   - `LogisticRegression(max_iter=1000)`
+---
+
+## 🧠 Future Improvements
+
+- Add multivariate models and polynomial regression
+- Implement classification with fewer classes
+- Explore deep learning (LSTM, transformers)
+- Improve evaluation metrics using cross-validation
 
 ---
 
-> *Keep learning, keep building!* 💻✨
+> 🚀 Stay tuned for more models and refinements!
