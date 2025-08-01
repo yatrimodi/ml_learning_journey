@@ -50,13 +50,11 @@ This repository contains simple machine learning models implemented using Python
   - `LogisticRegression(max_iter=1000)`
 ---
 
-# 🎓 College Student Placement Prediction
 
-Predict if a student gets placed based on academic and skill-related features using Logistic Regression.
 
----
+## 🔹 College Student Placement Prediction
 
-## 🔹 Model Details
+**Goal:** Predict employee salary based on years of experience.
 
 - **Dataset:** `college_student_placement_dataset.csv`
 - **Features:** IQ, Prev_Sem_Result, CGPA, Academic_Performance, Extra_Curricular_Score, Communication_Skills, Projects_Completed, Internship_Experience (one-hot)
